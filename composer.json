@@ -1,0 +1,30 @@
+{
+	"name": "infinum/eightshift-libs-stubs",
+	"description": "PHPStan stubs for eightshift-libs project",
+	"type": "composer-plugin",
+	"keywords": [
+		"wordpress",
+		"static analysis",
+		"phpstan",
+		"eightshift",
+		"eightshift-libs"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Eightshift team",
+			"email": "team@eightshift.com",
+			"homepage": "https://eightshift.com/",
+			"role": "Developer / IT Manager"
+		}
+	],
+	"require": {
+		"php-stubs/wordpress-stubs": "^5.7",
+		"setasign/php-stub-generator": "^1.0"
+	},
+	"require-dev": {
+		"php": "^7.3 || <8.0",
+		"infinum/eightshift-libs": "dev-release/3.1.0"
+	},
+	"minimum-stability": "stable"
+}
