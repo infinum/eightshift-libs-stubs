@@ -15,7 +15,7 @@ Then, while developing you should add the stubs to `phpstan.neon.dist`
 
 ```neon
 bootstrapFiles:
-        - %rootDir%/../../infinum/eightshift-libs-stubs/eighttshift-libs-stubs.php
+		- %currentWorkingDirectory%/vendor/infinum/eightshift-libs-stubs/eightshift-libs-stubs.php
 ```
 
 ## Modification of the stub generation
