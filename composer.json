@@ -1,7 +1,6 @@
 {
 	"name": "infinum/eightshift-libs-stubs",
 	"description": "PHPStan stubs for eightshift-libs project",
-	"type": "composer-plugin",
 	"keywords": [
 		"wordpress",
 		"static analysis",
