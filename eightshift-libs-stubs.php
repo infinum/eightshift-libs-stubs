@@ -101,7 +101,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @throws \Exception When we're unable to find the component by $component.
          *
-         * @return bool|string|string[]|array<string, mixed>
+         * @return mixed
          */
         public static function checkAttr(string $key, array $attributes, array $manifest) {}
 
@@ -115,7 +115,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          * @throws \Exception If missing responsiveAttributes or keyName in responsiveAttributes.
          * @throws \Exception If missing keyName in responsiveAttributes.
          *
-         * @return array<int|string, array<string>|bool|string>
+         * @return array<mixed>
          */
         public static function checkAttrResponsive(string $keyName, array $attributes, array $manifest): array {}
 
