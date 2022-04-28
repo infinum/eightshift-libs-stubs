@@ -1,4 +1,4 @@
-# Eightshfit Libs Stubs
+# Eightshift Libs Stubs
 
 This package offers PHPStan stubs for the use with Eightshift Frontend Libs. Currently, it only holds the `Helpers`
 stubs, since those are the only ones needed for inspections inside the block files.
@@ -32,5 +32,5 @@ This will create the `eightshift-libs-stubs.php` file.
 
 ## License
 
-Eightshift Libs Stubs ©2021 Eightshift and Infinum. It is free software, and may be redistributed under the terms
+Eightshift Libs Stubs ©2022 Eightshift and Infinum. It is free software, and may be redistributed under the terms
 specified in the LICENSE file.

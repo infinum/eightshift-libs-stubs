@@ -18,12 +18,12 @@
 		}
 	],
 	"require": {
-		"php-stubs/wordpress-stubs": "^5.7",
+		"php-stubs/wordpress-stubs": "^5.9",
 		"setasign/php-stub-generator": "^1.0"
 	},
 	"require-dev": {
-		"php": "^7.3 || <8.0",
-		"infinum/eightshift-libs": "dev-release/3.1.0"
+		"php": "^7.4 || <8.0",
+		"infinum/eightshift-libs": "^5.0.0"
 	},
 	"minimum-stability": "stable"
 }
