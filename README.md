@@ -32,5 +32,5 @@ This will create the `eightshift-libs-stubs.php` file.
 
 ## License
 
-Eightshift Libs Stubs ©2022 Eightshift and Infinum. It is free software, and may be redistributed under the terms
+Eightshift Libs Stubs ©2022t Eightshift and Infinum. It is free software, and may be redistributed under the terms
 specified in the LICENSE file.
