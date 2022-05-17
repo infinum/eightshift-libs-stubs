@@ -1,4 +1,5 @@
 /.gitattributes export-ignore
 /.editorconfig export-ignore
 /.gitignore export-ignore
+/generate.php export-ignore
 /README.md export-ignore
