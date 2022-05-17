@@ -14,7 +14,8 @@ composer require infinum/eightshift-libs-stubs --dev
 Then, while developing you should add the stubs to `phpstan.neon.dist`
 
 ```neon
-bootstrapFiles:
+parameters:
+	bootstrapFiles:
 		- %currentWorkingDirectory%/vendor/infinum/eightshift-libs-stubs/eightshift-libs-stubs.php
 ```
 
@@ -32,5 +33,5 @@ This will create the `eightshift-libs-stubs.php` file.
 
 ## License
 
-Eightshift Libs Stubs ©2022t Eightshift and Infinum. It is free software, and may be redistributed under the terms
+Eightshift Libs Stubs ©2022 Eightshift and Infinum. It is free software, and may be redistributed under the terms
 specified in the LICENSE file.
