@@ -23,7 +23,7 @@
 	},
 	"require-dev": {
 		"php": "^7.4 || <8.0",
-		"infinum/eightshift-libs": "^5.0.0"
+		"infinum/eightshift-libs": "^5.1.0"
 	},
 	"minimum-stability": "stable"
 }
