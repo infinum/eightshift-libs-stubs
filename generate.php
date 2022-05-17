@@ -2,20 +2,27 @@
 
 declare(strict_types=1);
 
-use setasign\PhpStubGenerator\PhpStubGenerator;
-use setasign\PhpStubGenerator\Reader\AllFiles;
+// You may alias the classnames for convenience.
+use StubsGenerator\{StubsGenerator, Finder};
 
-require_once __DIR__ . '/vendor/autoload.php';
-require 'vendor/php-stubs/wordpress-stubs/wordpress-stubs.php';
+$ds = DIRECTORY_SEPARATOR;
 
-$generator = new PhpStubGenerator();
-$generator->addSource(
-	'eightshift-libs-stubs',
-	new AllFiles(
-		__DIR__ . '/vendor/infinum/eightshift-libs/src/Helpers',
-	)
-);
-$output = $generator->generate();
+require_once 'vendor' . $ds . 'autoload.php';
+require_once 'vendor' . $ds . 'php-stubs' . $ds . 'wordpress-stubs' . $ds . 'wordpress-stubs.php';
+
+$generator = new StubsGenerator(StubsGenerator::ALL);
+
+$path = 'vendor' . $ds . 'infinum' . $ds . 'eightshift-libs' . $ds . 'src' . $ds . 'Helpers';
+
+$finder = Finder::create()
+	->in([$path])
+	->files();
+
+$result = $generator->generate($finder);
+
+$output = $result->prettyPrint();
+
+//var_export($result->getStats());
 
 // Cleanup.
 $output = str_replace('namespace EightshiftLibs\\', 'namespace EightshiftBoilerplateVendor\\EightshiftLibs\\', $output);
@@ -27,4 +34,4 @@ $output = str_replace(
 	$output
 );
 
-file_put_contents(__DIR__ . '/eightshift-libs-stubs.php', $output);
+file_put_contents(__DIR__ . $ds . 'eightshift-libs-stubs.php', $output);
