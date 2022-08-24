@@ -582,7 +582,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setStore(): \void {}
+        public static function setStore(): void {}
 
         /**
          * Get store details.
@@ -598,7 +598,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setBlocks(array $blocks): \void {}
+        public static function setBlocks(array $blocks): void {}
 
         /**
          * Get blocks details.
@@ -623,7 +623,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setComponents(array $components): \void {}
+        public static function setComponents(array $components): void {}
 
         /**
          * Get components details.
@@ -645,7 +645,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setConfigFlags(): \void {}
+        public static function setConfigFlags(): void {}
 
         /**
          * Get all global config settings.
@@ -661,7 +661,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setConfigOutputCssGlobally(bool $config): \void {}
+        public static function setConfigOutputCssGlobally(bool $config): void {}
 
         /**
          * Get global config value for output css globally.
@@ -677,7 +677,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setConfigOutputCssOptimize(bool $config): \void {}
+        public static function setConfigOutputCssOptimize(bool $config): void {}
 
         /**
          * Get global config value for output css optimize.
@@ -693,7 +693,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setConfigOutputCssSelectorName(string $config): \void {}
+        public static function setConfigOutputCssSelectorName(string $config): void {}
 
         /**
          * Get global config value for output css selector name.
@@ -709,7 +709,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setConfigOutputCssGloballyAdditionalStyles(array $config): \void {}
+        public static function setConfigOutputCssGloballyAdditionalStyles(array $config): void {}
 
         /**
          * Get global config value for output css globally additional styles.
@@ -725,7 +725,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setConfigUseWrapper(bool $config): \void {}
+        public static function setConfigUseWrapper(bool $config): void {}
 
         /**
          * Get global config value for use wrapper.
@@ -741,7 +741,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setWrapper(array $wrapper): \void {}
+        public static function setWrapper(array $wrapper): void {}
 
         /**
          * Get wrapper details.
@@ -764,7 +764,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setSettings(array $settings): \void {}
+        public static function setSettings(array $settings): void {}
 
         /**
          * Get global settings details.
@@ -815,7 +815,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setSettingsGlobalVariablesBreakpoints(array $breakpoints): \void {}
+        public static function setSettingsGlobalVariablesBreakpoints(array $breakpoints): void {}
 
         /**
          * Get global settings details - global variables breakpoints.
@@ -838,7 +838,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setStyles(array $styles): \void {}
+        public static function setStyles(array $styles): void {}
 
         /**
          * Set styles details.
@@ -847,7 +847,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
          *
          * @return void
          */
-        public static function setStyle(array $style): \void {}
+        public static function setStyle(array $style): void {}
 
         /**
          * Get styles details.
@@ -858,4 +858,3 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers
 
     }
 }
-
