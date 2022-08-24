@@ -31,6 +31,10 @@ php generate.php
 
 This will create the `eightshift-libs-stubs.php` file.
 
+### Trait import issue
+
+Currently, the generator won't pick up the trait import in the `Components` class, so this part you'll need to do yourself after the stubs have been generated.
+
 ## License
 
 Eightshift Libs Stubs ©2022 Eightshift and Infinum. It is free software, and may be redistributed under the terms
