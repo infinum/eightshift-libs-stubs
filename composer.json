@@ -18,7 +18,7 @@
 		}
 	],
 	"require": {
-		"php-stubs/wordpress-stubs": "^5.9"
+		"php-stubs/wordpress-stubs": "^6.0"
 	},
 	"require-dev": {
 		"php": "^7.4 || <8.0",
