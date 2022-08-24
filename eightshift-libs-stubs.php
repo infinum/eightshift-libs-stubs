@@ -843,7 +843,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setStore(): \void
+		public static function setStore(): void
 		{
 		}
 
@@ -863,7 +863,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setBlocks(array $blocks): \void
+		public static function setBlocks(array $blocks): void
 		{
 		}
 
@@ -894,7 +894,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setComponents(array $components): \void
+		public static function setComponents(array $components): void
 		{
 		}
 
@@ -924,7 +924,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setVariations(array $variations): \void
+		public static function setVariations(array $variations): void
 		{
 		}
 
@@ -952,7 +952,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setConfigFlags(): \void
+		public static function setConfigFlags(): void
 		{
 		}
 
@@ -972,7 +972,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setConfigOutputCssGlobally(bool $config): \void
+		public static function setConfigOutputCssGlobally(bool $config): void
 		{
 		}
 
@@ -992,7 +992,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setConfigOutputCssOptimize(bool $config): \void
+		public static function setConfigOutputCssOptimize(bool $config): void
 		{
 		}
 
@@ -1012,7 +1012,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setConfigOutputCssSelectorName(string $config): \void
+		public static function setConfigOutputCssSelectorName(string $config): void
 		{
 		}
 
@@ -1032,7 +1032,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setConfigOutputCssGloballyAdditionalStyles(array $config): \void
+		public static function setConfigOutputCssGloballyAdditionalStyles(array $config): void
 		{
 		}
 
@@ -1052,7 +1052,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setConfigUseWrapper(bool $config): \void
+		public static function setConfigUseWrapper(bool $config): void
 		{
 		}
 
@@ -1072,7 +1072,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setWrapper(array $wrapper): \void
+		public static function setWrapper(array $wrapper): void
 		{
 		}
 
@@ -1101,7 +1101,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setSettings(array $settings): \void
+		public static function setSettings(array $settings): void
 		{
 		}
 
@@ -1166,7 +1166,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setSettingsGlobalVariablesBreakpoints(array $breakpoints): \void
+		public static function setSettingsGlobalVariablesBreakpoints(array $breakpoints): void
 		{
 		}
 
@@ -1195,7 +1195,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setStyles(array $styles): \void
+		public static function setStyles(array $styles): void
 		{
 		}
 
@@ -1206,7 +1206,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setStyle(array $style): \void
+		public static function setStyle(array $style): void
 		{
 		}
 
@@ -1224,7 +1224,7 @@ namespace EightshiftBoilerplateVendor\EightshiftLibs\Helpers {
 		 *
 		 * @return void
 		 */
-		public static function setPaths(): \void
+		public static function setPaths(): void
 		{
 		}
 
