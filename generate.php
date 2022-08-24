@@ -26,5 +26,13 @@ $output = str_replace(
 	'EightshiftBoilerplateVendor\\',
 	$output
 );
+$output = str_replace('\\void', 'void', $output);
+// Don't delete the weird indentation here. This is deliberate!!!
+$output = str_replace('class Components
+    {', 'class Components
+    {
+        use StoreTrait, CssVariablesTrait, SelectorsTrait, AttributesTrait, ObjectHelperTrait, ShortcodeTrait, PostTrait, LabelGeneratorTrait, MediaTrait;
+', $output);
+
 
 file_put_contents(__DIR__ . '/eightshift-libs-stubs.php', $output);
